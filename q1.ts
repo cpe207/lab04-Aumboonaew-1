@@ -1,7 +1,7 @@
-function typeChecker(a, c) {
-  if (typeof a === typeof c) {
+function typeChecker(a, b) {
+  if (typeof a === typeof b) {
     if (typeof a === "number") {
-      return a + c;
+      return a + b;
     }
     if (typeof a === "string") {
       return "I LOVE YOU";
@@ -23,3 +23,5 @@ console.log(typeChecker(a2, b2));
 console.log(typeChecker(a3, b3));
 
 module.exports = typeChecker;
+
+// อุ้มุบุญ แนวสุข 640612197

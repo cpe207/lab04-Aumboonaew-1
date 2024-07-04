@@ -20,3 +20,5 @@ console.log(primeNumber(d2));
 console.log(primeNumber(d3));
 
 module.exports = primeNumber;
+
+// อุ้มบุญ แนวสุข 640612197
