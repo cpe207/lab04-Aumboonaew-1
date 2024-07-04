@@ -1,7 +1,15 @@
 function typeChecker(a, b) {
-  /* Your code here */
+  if (typeof a === typeof b) {
+    if (typeof a === "number") {
+      return a + b;
+    }
+    if (typeof a === "string") {
+      return "I LOVE YOU";
+    }
+  } else {
+    return "NOT MATCHED";
+  }
 }
-
 //Test cases
 const a1 = "Jack";
 const b1 = "Rose";
