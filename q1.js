@@ -1,15 +1,14 @@
-function typeChecker(a, b) {
-    if (typeof a === typeof b) {
-        if (typeof a === "number") {
-            return a + b;
-        }
-        if (typeof a === "string") {
-            return "I LOVE YOU";
-        }
+function typeChecker(a, c) {
+  if (typeof a === typeof c) {
+    if (typeof a === "number") {
+      return a + c;
     }
-    else {
-        return "NOT MATCHED";
+    if (typeof a === "string") {
+      return "I LOVE YOU";
     }
+  } else {
+    return "NOT MATCHED";
+  }
 }
 //Test cases
 var a1 = "Jack";
